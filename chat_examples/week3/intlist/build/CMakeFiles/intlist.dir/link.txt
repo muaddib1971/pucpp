@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-6/root/usr/bin/g++   -std=c++14 -Wall -pedantic    CMakeFiles/intlist.dir/intlist.cpp.o CMakeFiles/intlist.dir/main.cpp.o  -o intlist -rdynamic 

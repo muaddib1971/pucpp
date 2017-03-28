@@ -1,0 +1,9 @@
+#include "flexiaccount1.h"
+
+bool FlexiAccount::set_overdraft_limit(int limit)
+{
+	if(limit < 0)
+		return false;
+	overdraft_limit = limit;
+	return true;
+}

@@ -1,0 +1,9 @@
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+
+int main(void)
+{
+  std::ifstream in("foo");
+  return EXIT_SUCCESS;
+}

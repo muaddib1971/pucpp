@@ -1,0 +1,21 @@
+#include <cstdio>
+#include <cstdlib>
+
+struct A
+{
+	A(int i) : i(i) { printf("Constructing<%d>...\n", i); }
+	~A()            { printf("Destructing<%d>...\n", i); }
+	int i;
+};
+
+A a = 1;
+int main(int argc, char **argv)
+{
+	printf("======\n");
+	a = 3;
+	printf("======\n");
+	a = 5;
+	printf("======\n");
+
+	return EXIT_SUCCESS;
+}

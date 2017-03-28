@@ -1,0 +1,32 @@
+class foo
+{
+public:
+  virtual int doit();
+};
+
+class bar : public foo
+{
+public:
+  virtual int doit()
+  {
+  }
+};
+
+class baz : public foo
+{
+public:
+  virtual int doot() override
+  {
+  }
+};
+
+
+int main()
+{
+  foo * f = new bar;
+  foo * g = new baz;
+
+  f->doit();
+  g->doit();
+}
+  
