@@ -14,8 +14,8 @@ public:
 float Timer::time()
 {
 	auto thisTime = std::chrono::system_clock::now();
-	std::chrono::duration<float> deltaTime = thisTime - lastTime;
 	lastTime = thisTime;
+	std::chrono::duration<float> deltaTime = thisTime - lastTime;
 	return deltaTime.count() * 1000.0f;
 }
 
