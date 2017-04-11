@@ -19,6 +19,7 @@ struct widget
         for(count = 0; count < size; ++count)
         {
             /* do the copying of the widget */
+            widgets[count] = std::make_unique<widget>(w.widgets[count]);
         }
     }
 
