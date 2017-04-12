@@ -1,3 +1,5 @@
+#include "direction.h"
+
 /// class player - 
 class player {
   // Attributes
@@ -13,7 +15,7 @@ private:
   int mana;
   int moves;
   room *  location;
-  item * equipment [NUM_WEAR_SLOTS];
+  item *[NUM_WEAR_SLOTS] equipment;
   stl_container inventory;
   int gold_pieces;
   // Operations
