@@ -1,10 +1,10 @@
-// enum
-/// class item_type - 
-class item_type {
-  // Attributes
-public:
-   WEAPON;
-   ARMOR;
-   INVALID;
+#ifndef ITEM_TYPE__HPP
+#define ITEM_TYPE__HPP
+
+enum item_type {
+    WEAPON,
+    ARMOR,
+    INVALID
 };
 
+#endif
