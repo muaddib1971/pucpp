@@ -17,7 +17,3 @@ namespace view {
     };
 }
 
-int main(void)
-{
-
-}
