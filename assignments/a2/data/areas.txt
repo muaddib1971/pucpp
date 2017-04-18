@@ -1,0 +1,4 @@
+1	Midgard	"All roads lead to Midgard", or so they say. This area is the central marketplace for MudWorld and it is the place where all players start when entering the game.
+
+This room is loosely based on the Midgard town as represented in classic ROM and DIKU mud code bases.
+2	Wyvern Tower	Crafted ages ago from the black magicks of an evil cult, the Wyvern's Tower was conquered two decades ago by the forces of Light. They set the tower on fire and left, believing that holy fire would finish the deed of purging the evil of the place. However, only months after, many races of Darkness began creeping back, making the tower's hallowed halls their home once again. The forces of Light, unfortunately, have not the time to deal with such minor threats. So, a group powerful enough to completely destroy the creatures within the tower has never risen to the challenge. The Wyvern's Tower has been used of late for training and testing of new initiates of Good.

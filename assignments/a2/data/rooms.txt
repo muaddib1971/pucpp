@@ -1,0 +1,49 @@
+1	1	1	Throne Room	This is the throne room for midgard. People come here to have an audience with the king.
+2	2	1	Entrance Chamber	This is the entrance chamber to the king's house. Better be on your best behaviour.
+3	3	1	Message Room	This room was intended as a place to come to send messages to other players. One day we hope the gods will come back and bless us with this additional functionality.
+4	4	1	Temple Square	This is the centre of worship in Midgard - be that of the gods or of the demon alcohol.
+5	5	1	Cleric's guild	This is a holy sanctum of the Cleric's guild. Clerics come here to train and learn from the masters. If you are not a cleric you really should not be here.
+6	6	1	The Grunting Boar Inn	This famous pub is always open for your business. It is warm and comfortable but could clearly do with some more maintenance.
+7	7	1	Mail Room	This is the mail room for the city of Midgard. A planning error somehow placed this room at the back of a pub.
+8	8	1	Moe's Tavern	This famous tavern is always open for business. Come on in and have a beer.
+9	9	1	Market Square	This is the central hub for business in the city of Midgard. Hang around here and do some shopping before you head off on your adventures.
+10	10	1	Main Street	You are in the main business streetof midgard. This is the right place to get your provisions before heading out on your adventure.
+11	11	1	Bakery	Here you can see the bakery of Midgard. Unfortunately it is currently closed.
+12	12	1	The Armory	Buy the armor you need to protect you here before you head out on your adventures.
+13	13	1	Main Street	You are in the main business streetof midgard. This is the right place to get your provisions before heading out on your adventure.
+14	14	1	Mage's Shop	Here is where the future Mage's shop will be constructed - once the gods implement a class system for our world.
+15	15	1	Mage Guild	This is the mage's guild where future spellcasters will train to take on the world. 
+16	16	1	Main Street	You are in the main business streetof midgard. This is the right place to get your provisions before heading out on your adventure.
+17	17	1	Main Street	You are in the main business streetof midgard. This is the right place to get your provisions before heading out on your adventure.
+18	18	1	Main Street	You are in the main business streetof midgard. This is the right place to get your provisions before heading out on your adventure.
+19	19	1	General Store	This is the store to cater for your provisions other than armor, weapons and food. It's not currently open. Come back later.
+20	20	1	Pet Store	This is where you would buy a pet to help with your hunting. Come back later when they are open.
+21	21	1	Main Street	You are in the main business streetof midgard. This is the right place to get your provisions before heading out on your adventure.
+22	22	1	Weapon Shop	Here you can find the weapons to buy to help you in your hunting and combat. Type "list" to see the list of wares and "buy" to buy an item.
+23	23	1	Warriors' Guild	This is where warriors will train once the gods implement the classing system for our world.
+24	24	1	Main Street	You are in the main business streetof midgard. This is the right place to get your provisions before heading out on your adventure.
+25	25	1	Main Street	You are in the main business streetof midgard. This is the right place to get your provisions before heading out on your adventure.
+26	26	1	At The Gate	This is the exit from Midgard to journey to the dreaded area known as "The Wyvern Tower"
+27	1	2	Crossroads To The Wilderness	You are at the crossroads where to the east you can see midgard and to the west you can see a dark tower in the distance.
+28	2	2	Rough East-West Path	You are travelling along a roughly worn path between Midgard and some dark tower off to the west.
+29	3	2	Rough Path Between the Hills	You are travelling closer to the dreaded Wyvern Tower now.
+30	4	2	Path Through An Open Area	You are travelling along the East-West path and approaching the edge of the Tower.
+31	5	2	West Side of Moat	You have reached the area of wyvern tower. To the west you can see a moat and to the north you can see a path.
+32	6	2	Western Moat	You are wading through the Western Moat. It is rather filthy, really. Not safe to drink this water.
+33	7	2	Northern Moat	This is the north side of the moat. This is not looking all that health either.
+34	8	2	Southern Moat	This is the southern side of the moat. Better get out of here before the poison in the water makes you sick.
+35	9	2	Tower Foyer	Finally you are at the foyer to the (in)famous Wyvern Tower. To the West is the actual entrance.
+36	10	2	The Grand Lobby	This is the first room in the tower. It has some old couches for those waiting to be attended.
+37	11	2	Path North of Moat	You are just north of the moat. Let's hope we don't have to get that wet again.
+38	12	2	Cluster of Buildings	You are surrounded by a cluster of buildings.
+39	13	2	Old Storage Room	You see a variety of old materials stored here but nothing of real interest.
+40	14	2	Empty Room	Well, this room is empty. What a suprise.
+41	15	2	Minotaur's Room	The minotaur is here ready to fight you. Don't let your guard down.
+42	16	2	House of Pancakes	Oh no, the buildings have collapsed upon you. There are no exits from here.
+43	17	2	Base of the Western Tower	Look up. This tower looks pretty tall.
+44	18	2	Kitchen	Smell that food. Pretty yummy. Just don't let the chef find you in here.
+45	19	2	Conservatory	Some nice plants in here. Although some of them look a bit hungry.
+46	20	2	In the Air	You are flying through the air. I hope your landing is soft!
+47	21	2	On the Balcony	Whew! This balcony is high up. Don't fall!
+48	22	2	The Western Tower	You are standing on the western tower of wyvern.
+49	23	2	On the Stairs	Hmmm, this seems something of a dead end.

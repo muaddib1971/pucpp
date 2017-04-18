@@ -1,0 +1,12 @@
+1	WRISTS	bracelets of power	some shiny bracelets are sitting here. they look like they might protect you in battle	30
+2	ARMS	sleeves of colour	these colourful sleeves look like they might help protect you from the darkness.	29
+3	HANDS	gloves of holding	These gloves seem to help you grip things more tightly than you would have otherwise.	28
+4	LEGS	leggings of strength	These leggings look like they will make you stronger in battle	36
+5	FEET	boots of speed	these boots will help you run faster away from the battle when you need to.	24
+6	HEAD	Helm of Protection	this helmet appears that it would protect you from bashing and slashing damage.	31
+7	TORSO	Vest of fire	This vest looks like it might protect you from any attacks from the cold.	32
+8	SHIELD	Shield of leather	This shield looks rather good but you must wonder how well it will hold up in battle.	31
+9	WEAPON	Thieve's dagger	This dagger looks great for backstabbing as a thief or an assassin.	26
+10	WEAPON	mace of bashing	this looks like a great mace for a warrior. Those fellows really only know how to bash	27
+10	WEAPON	axe of slicing	this axe would be great if you have to take on a larger opponent	39
+11	WEAPON	spear of piercing	this spear looks really great for poking holes in the enemy.	20
