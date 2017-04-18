@@ -1,15 +1,8 @@
-#include <iostream>
-#include <std::string>
-#include "model.h"
-namespace model 
+namespace model
 {
-    /**
-     * send a reference to the data model to the constructors of each 
-     * of these classes
-     **/
     namespace io {
         /**
-         * \brief combine these classes together with the different types of data to load by using multiple inheritance and templating
+         * \brief you are required to implement these with inheritance and template specialisation. so you should have a template specialisation for each kind of object you wish to save. 
          */
         class ascii_loader {
             // Operations
@@ -17,6 +10,9 @@ namespace model
                 bool load ();
                 bool validate ();
         };
+        /**
+         * \brief combine these classes together with the different types of data to load by using multiple inheritance and templating
+         */
         class ascii_saver {
             // Operations
             public :

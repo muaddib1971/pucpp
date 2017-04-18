@@ -1,7 +1,5 @@
-namespace model {
-    /* you want to reshape this class into an abstract class with 
-     * concrete child classes for each kind of item
-     */
+namespace model
+{
     namespace item {
         enum wear_location {
             WRISTS,

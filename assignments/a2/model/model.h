@@ -1,13 +1,5 @@
-#pragma once
-
-#include "player.h"
-#include "shopkeeper.h"
-#include <stl_constainer> //replace this with your choice of container
-#include "area.h"
-#include "room.h"
-#include "item.h"
-
-namespace model {
+namespace model
+{
     class model {
         // Attributes
         private :
@@ -15,7 +7,7 @@ namespace model {
             stl_container<shop_keeper> shopkeepers;
             stl_container<area> areas;
             std_container<item> items;
-            // Operations
+        // Operations
         public :
             bool binary_save (const std::string& name);
             bool binary_load (const std::string& name);
@@ -28,4 +20,3 @@ namespace model {
             item& get_item (int id);
     };
 }
-
