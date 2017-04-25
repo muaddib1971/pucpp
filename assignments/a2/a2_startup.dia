@@ -2972,7 +2972,7 @@
         <dia:point val="57.8247,102.665"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="57.7747,102.615;81.2872,110.165"/>
+        <dia:rectangle val="57.7747,102.615;81.2872,110.965"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="57.8247,102.665"/>
@@ -2981,7 +2981,7 @@
         <dia:real val="23.412500000000001"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="7.4499999999999993"/>
+        <dia:real val="8.25"/>
       </dia:attribute>
       <dia:attribute name="name">
         <dia:string>#command#</dia:string>
@@ -3208,6 +3208,36 @@
               </dia:attribute>
             </dia:composite>
           </dia:attribute>
+        </dia:composite>
+        <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#operator()#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="stereotype">
+            <dia:string>##</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#bool#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="comment">
+            <dia:string>##</dia:string>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="inheritance_type">
+            <dia:enum val="2"/>
+          </dia:attribute>
+          <dia:attribute name="query">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="parameters"/>
         </dia:composite>
       </dia:attribute>
       <dia:attribute name="template">
@@ -4267,7 +4297,7 @@
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O21" connection="8"/>
-        <dia:connection handle="1" to="O18" connection="14"/>
+        <dia:connection handle="1" to="O18" connection="16"/>
       </dia:connections>
       <dia:childnode parent="O16"/>
     </dia:object>
@@ -6084,7 +6114,7 @@ game state must be sent to the model class.#</dia:string>
         <dia:point val="20.1,-3.9875"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="20.1,-4.60112;29.0536,-3.80025"/>
+        <dia:rectangle val="20.1,-4.5825;29.035,-3.8375"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
