@@ -2,25 +2,25 @@
 
 #if 0
 
-class Top
+struct Top
 {
 public:
 	int a;
 };
 
-class Left : public Top
+struct Left : public Top
 {
 public:
 	int b;
 };
 
-class Right : public Top
+struct Right : public Top
 {
 public:
 	int c;
 };
 
-class Bottom : public Left, public Right
+struct Bottom : public Left, public Right
 {
 public:
 	int d;
@@ -43,13 +43,14 @@ int main(int argc, char **argv)
 	Top *topR = (Right*) bottom;
 	std::cout << "Left: " << left << ", TopL: " << topL << "\n";
 	std::cout << "Right: " << right << ", TopR: " << topR << "\n";
+    std::cout << bottom->a;
 
 	return 0;
 }
 
 #else
 
-class Top
+struct Top
 {
 public:
 	int a;
@@ -58,7 +59,7 @@ public:
 	virtual ~Top() {}
 };
 
-class Left : public virtual Top
+struct Left : public virtual Top
 {
 public:
 	int b;
@@ -66,7 +67,7 @@ public:
 	Left(int a, int b) : Top(a), b(b) {}
 };
 
-class Right : public virtual Top
+struct Right : public virtual Top
 {
 public:
 	int c;
@@ -74,7 +75,7 @@ public:
 	Right(int a, int c) : Top(a), c(c) {}
 };
 
-class Bottom : public Left, public Right
+struct Bottom : public Left, public Right
 {
 public:
 	int d;
@@ -82,7 +83,7 @@ public:
 	Bottom(int a, int b, int c, int d) : Left(a, b), Right(a, c), d(d) {}
 };
 
-class AnotherBottom : public Left, public Right
+struct AnotherBottom : public Left, public Right
 {
 public:
 	int e;
