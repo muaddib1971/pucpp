@@ -1,5 +1,8 @@
 #include "intlist.h"
+/* new typedef */
 using ll=linked_list;
+
+/* && means change of ownership */
 void ll::node::set_next(std::unique_ptr<ll::node>&& newnext)
 {
     next = std::move(newnext);

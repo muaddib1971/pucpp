@@ -1,6 +1,7 @@
 #include <memory>
 class linked_list
 {
+    /* linked_list::node */
     class node
     {
         int data;
