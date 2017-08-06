@@ -30,7 +30,7 @@ bool ll::add(int data)
     std::unique_ptr<ll::node> newnode = std::make_unique<ll::node>(data);
     if(head == nullptr)
     {
-        head = std::make_unique<node>(data);
+        head = std::move(newnode);
         ++size;
         return true;
     }
@@ -43,7 +43,7 @@ bool ll::add(int data)
     if(!prev)
     {
         newnode->set_next(std::move(head));
-        head == std::move(newnode);
+        head = std::move(newnode);
     }
     else if(!current)
     {
