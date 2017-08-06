@@ -13,10 +13,13 @@ int main(void)
         std::cout << "Please enter an int to add to the list: " 
             << std::endl;
         std::getline(std::cin, input);
-        if(std::cin)
+        if(std::cin && input != "")
         {
             value = std::stoi(input);
             list.add(value);
+        }
+        else{
+            break;
         }
     }
     list.print();
