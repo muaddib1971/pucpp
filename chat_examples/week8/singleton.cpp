@@ -1,5 +1,5 @@
 #include "singleton.h"
-std::unique_ptr<singleton> singleton::instance = nullptr;
+std::unique_ptr<singleton> singletone::instance;
 
 void singleton::doit(void)
 {

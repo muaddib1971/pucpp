@@ -12,6 +12,7 @@ class singleton
         {
             if(instance == nullptr)
             {
+                //can't use std::make_unique!!! 
                 instance = std::unique_ptr<singleton>(
                     new singleton()
                 );
