@@ -56,6 +56,10 @@ void draughts::ncview::menu::activate(void)
             }
         }
     }
+    /* this is the same as below 
+        command & comm = *menu_commands[choice-1];
+        comm();
+    */
     (*(menu_commands[choice-1]))();
 }
 
