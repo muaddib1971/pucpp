@@ -13,8 +13,8 @@ int main(void)
 	out.exceptions(std::ios_base::badbit | std::ios_base::failbit);
 	try
 	{
-		int size = ints.size();
-		out.write((byte*)(&size),sizeof(int));
+		size_t size = ints.size();
+		out.write(reinterpret_cast<byte*>(&size),sizeof(size_t));
 		out.write((byte*)(&ints[0]), 
 					sizeof(int) * ints.size());
 	}

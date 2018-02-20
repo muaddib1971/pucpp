@@ -13,8 +13,8 @@ int main(void)
 	in.exceptions(std::ios_base::badbit | std::ios_base::failbit);
 	try
 	{
-		int size;
-		in.read((byte*)(&size),sizeof(int));
+		size_t size;
+		in.read((byte*)(&size),sizeof(size_t));
 		ints.resize(size);
 		in.read((byte*)(&ints[0]), 
 					sizeof(int) * size);
