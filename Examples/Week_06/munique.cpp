@@ -1,5 +1,6 @@
 #include <cstdio>
 #include <cstdlib>
+#include <memory>
 
 struct A
 {
@@ -21,15 +22,12 @@ struct A
 
 int main(int argc, char** argv)
 {
-        A* a = new A(1);
+        std::unique_ptr<A> a = std::make_unique<A>(1);
         printf("======\n");
-        delete a;
-        a = new A(3);
+        a = std::make_unique<A>(3);
         printf("======\n");
-        delete a;
-        a = new A(5);
+        a = std::make_unique<A>(5);
         printf("======\n");
-        delete a;
-        printf("leaving main\n");
+        printf("leaving main.\n");
         return EXIT_SUCCESS;
 }

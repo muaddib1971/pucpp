@@ -2,32 +2,37 @@
 
 int main(int argc, char **argv)
 {
-  // --New--
-  std::cout << "Enter 2 numbers: ";
+        // --New--
+        std::cout << "Enter 2 numbers: ";
 
-  // Note that we do not need to declare our variables at the start of a
-  // function, as we would in C89
-  int i, j;
+        // Note that we do not need to declare our variables at the start of a
+        // function, as we would in C89
+        int i, j;
 
-  // We use cin to get input from the user, note that we use ">>" instead
-  // of "<<" as the stream will be putting results from cin into the variables
-  // i and j, as opposed to using "<<" which we have been using to put the
-  // contents of a string into cout.
-  if(!(std::cin >> i) || !(std::cin  >> j))
-      //std::cin.operator>>(std::cin, i)
-      //if(std::cin.good())
-  {
-      int i = stoi(std::string&);
-      //stol, stoul, ...
+        // We use cin to get input from the user, note that we use ">>" instead
+        // of "<<" as the stream will be putting results from cin into the
+        // variables
+        // i and j, as opposed to using "<<" which we have been using to put the
+        // contents of a string into cout.
+        if (!(std::cin >> i) || !(std::cin >> j))
+                std::cerr << "error in input"
+                          << "\n ";
+// std::cin.operator>>(std::cin, i)
+// if(std::cin.good())
+#if 0
+    {
+        int i = stoi(std::string &);
+        // stol, stoul, ...
 
-          //error
-  }
+        // error
+    }
 
-  //stoi()
+    // stoi()
+    //
+#endif
+        std::cout << "\nThe sum is: " << i + j << "\n";
 
-  std::cout << "\nThe sum is: " << i + j  << "\n";
+        // ---End new---
 
-  // ---End new---
-
-  return 0;
+        return 0;
 }
