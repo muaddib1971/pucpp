@@ -1,0 +1,5 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+project(intlist)
+ADD_EXECUTABLE(intlist intlist.cpp main.cpp)
+SET(CMAKE_CXX_FLAGS "-std=c++14 -Wall -pedantic")
+SET(CMAKE_CXX_COMPILER "/opt/rh/devtoolset-6/root/usr/bin/g++")
