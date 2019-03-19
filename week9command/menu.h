@@ -9,6 +9,7 @@ struct menu_item
         std::string text;
         std::unique_ptr<command> operation;
 };
+
 template <int I>
 class menu
 {

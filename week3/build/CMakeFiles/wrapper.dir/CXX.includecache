@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/el9/E70949/shared/cpt323/week3/split.cpp
+split.h
+/home/el9/E70949/shared/cpt323/week3/split.h
+
+/home/el9/E70949/shared/cpt323/week3/split.h
+vector
+-
+string
+-
+boost/algorithm/string/split.hpp
+-
+
+/home/el9/E70949/shared/cpt323/week3/wrapper.cpp
+boost/program_options.hpp
+-
+boost/algorithm/string/split.hpp
+-
+string
+-
+exception
+-
+vector
+-
+split.h
+/home/el9/E70949/shared/cpt323/week3/split.h
+

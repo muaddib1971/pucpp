@@ -1,3 +1,5 @@
+#include <iostream>
+#if 0
 class shape
 {
     public:
@@ -33,13 +35,35 @@ class roundedrect : public rect, public circle
         std::cout << shape::area;
     }
 };
+#endif
+
+class engine
+{
+      public:
+        engine()
+        {
+                std::cout << "broom broom\n";
+        }
+
+        void start()
+        {
+                std::cout << "broooooooooooooooooooooooooooom\n";
+        };
+};
 
 class car : private engine
 {
-    using engine::engine;
-    public:
-    void start()
-    {
-        engine::start();
-    }
+        using engine::engine;
+
+      public:
+        void start()
+        {
+                engine::start();
+        }
 };
+
+int main()
+{
+        car thecar;
+        thecar.start();
+}

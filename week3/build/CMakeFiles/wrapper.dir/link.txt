@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-7/root/usr/bin/c++   -std=c++17 -Wall -pedantic -Wextra -g    CMakeFiles/wrapper.dir/wrapper.cpp.o CMakeFiles/wrapper.dir/split.cpp.o  -o wrapper -rdynamic -lboost_program_options-mt 
