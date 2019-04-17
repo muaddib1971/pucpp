@@ -5,12 +5,15 @@
 
 void print(int i)
 {
-	std::cout << i << ", ";
+        std::cout << i << ", ";
 }
 
 struct Print
 {
-	void operator () (int i) { std::cout << i << ", "; }
+        void operator()(int i)
+        {
+                std::cout << i << ", ";
+        }
 };
 
 #if 0
@@ -22,30 +25,33 @@ void sumFn(int i)
 
 struct Sum
 {
-	int &sum;
-	Sum(int &sum) : sum(sum) {}
-	void operator () (int i) { sum += i; }
+        int &sum;
+        Sum(int &sum) : sum(sum)
+        {
+        }
+        void operator()(int i)
+        {
+                sum += i;
+        }
 };
-
-
-
 
 int main(int argc, char **argv)
 {
-	std::vector<int> v = {0, 1, 2, 3, 4, 5, 6};
+        std::vector<int> v = { 0, 1, 2, 3, 4, 5, 6 };
 
-	//Sum s(sum);
-	auto lambda = [&v]() -> int {
-		int sum = 0;
-		for (int i : v)
-			sum += i;
-		return sum;
-	};
+        // Sum s(sum);
+        Print p;
+        p(3);
+        auto lambda = [&v]()->int
+        {
+                int sum = 0;
+                for (int i : v)
+                        sum += i;
+                return sum;
+        };
 
+        // std::for_each(v.begin(), v.end(), lambda);
+        std::cout << lambda() << "\n";
 
-	//std::for_each(v.begin(), v.end(), lambda);
-	std::cout << lambda() << "\n";
-
-	return 0;
+        return 0;
 }
-

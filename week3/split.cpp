@@ -3,7 +3,7 @@
 std::vector<std::string> splitter::split(const std::string& origstr, int len)
 {
         std::vector<std::string> output;
-        boost::split(output, origstr, [len](char ch)->bool
+        auto func = [&](char ch)->bool
         {
                 (void)ch;
                 static int count = 0;
@@ -14,6 +14,7 @@ std::vector<std::string> splitter::split(const std::string& origstr, int len)
                         return true;
                 }
                 return false;
-        });
+        };
+        boost::split(output, origstr, func);
         return output;
 }
