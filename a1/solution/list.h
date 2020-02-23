@@ -14,7 +14,7 @@
 #include <utility>
 #include <sstream>
 #pragma once
-
+using owner = unique_ptr;
 namespace cpt323::list
 {
         /* the node struct for our list */
